@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset utf-8>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>my portfolio</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <header>
+           <p>
+               <img src="images/Ameer.jpeg" alt="picture">
+              <h1>Salisu Saad Umar</h1>
+           </p>
+           <p>Programmer | Web developer | Designer</p>
+        </header>
+        
+        <nav>
+            <button onclick="showSection('about')">About</button>
+            <button onclick="showSection('projects')">Projects</button>
+            <button onclick="showSection('contact')">Contact</button>
+        </nav>
+        
+        <section id="about">
+            <h2>About me</h2>
+            <p>I'm Salisu Saad Umar, a programming student with an interest for creating innovative digital solutions. My goal is to bring about a new digital world that makes life easier for everyone. With a strong interest in programming, I'm dedicated to developing technologies that simplify complex problems and improve people's lives. I'm excited to continue learning and growing as a programmer, and I'm looking forward to make a positive impact in the world through my work.</p>
+        </section>
+        
+        <section id="projects"style="display:none;">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    Project A - Student Grade Calculator(c++)
+                <br> A program written in c++ that calculates the grade of students across five(5) different courses.It uses conditional statements to assign grades. 
+                </li>
+                
+                <li>
+                    Project B - Personal Portfolio Website
+                    <br> This website itself: A personal portfolio built with HTML,CSS,and JavaScript showing my skills and projects.
+                </li>
+            </ul>
+        </section>
+        <section id="contact" style="display:none;">
+           <h2>Contact Me</h2> 
+           <p>Email: salisusaadumar1@gmail.com</p> 
+           <p>Phone: 07043934366</p>
+           <h3>Follow Me</h3>
+           <a href="https://github.com/Ameergaro" target="_ blank">Git hub</a><br><br>
+           <a href="https://www.tiktok.com/@yaronmamagaro?_t=8rbpaJlgemu&_r=1" target="_ blank">Tik tok</a><br><br>
+           <a href="https://www.facebook.com/salisu.saadumar" target="_ blank">Facebook</a>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
